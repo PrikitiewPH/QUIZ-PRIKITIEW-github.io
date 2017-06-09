@@ -1,0 +1,18 @@
+
+#alpha{
+    background: lightgray no-repeat fixed;     
+}
+#beta{
+    background: lightgray no-repeat fixed;     
+}
+
+canvas {
+    border:3px solid green;
+    background: url(../images/grass.jpg);
+}
+#bonus {
+    background-color: white;
+}
+#bonus h1{
+    margin-top : -20px;
+}
