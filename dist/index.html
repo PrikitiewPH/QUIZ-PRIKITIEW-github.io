@@ -7,13 +7,15 @@
       <link rel="stylesheet" type="text/css" href="build/build.css">
       <link rel="stylesheet" type="text/css" href="build/bootstrap-3.3.7-dist/css/bootstrap.css">
       <link rel="stylesheet" type="text/css" href="build/prikitiew.css">
-      
+      <link rel="stylesheet" type="text/css" href="build/andy.css">
+    
   </head>
   <body>
       <article>
           <section id="alpha">
               <h1><img src="images/coollogo_com-2357971.png"></h1>
           </section>
+          
           <section id="beta">
               <marquee><img src="images/coollogo_com-154281617.png" width="800px"></marquee>
               <ul>
@@ -24,6 +26,98 @@
                   <li>Kevin Julius [15.111.0563]</li>
               </ul>
           </section>
+                <section id="kedua">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="Images/coollogo_com-252831613.png">
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#ketiga"><img id="benar" src="Images/coollogo_com-50471734.png"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                  
+                            <button type="button" id="button" class="button">A. Start</button>
+                            <!-- The Modal -->
+                            
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" src="images/valak.jpg">
+                                <div id="caption"></div>
+                            </div>
+                            <button type="button" id="button1" class="button">B. Go!!</button>
+                            <!-- The Modal -->
+                            
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" src="images/valak.jpg">
+                                <div id="caption"></div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="col-md-6">
+                            
+                            <button type="button" id="button2" class="button">C. Main</button>
+                            <!-- The Modal -->
+                            
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" src="images/valak.jpg">
+                                <div id="caption"></div>
+                            </div>
+                            
+                            <button type="button" id="button3" class="button">D. Ayo!</button>
+                            <!-- The Modal -->
+                            
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" src="images/valak.jpg">
+                                <div id="caption"></div>
+                            </div>
+                        </div>
+                    </div>
+          </section>
+        
+        
+      <section id="ketiga">
+        <div class="col-md-6">
+                  <img src="Images/coollogo_com-223751566.png">
+              </div>
+           <div class="row">
+              <div class="col-md-6">
+                  <button type="button" id="button" class="button">A. F-M</button>
+
+                  <a href="#keempat"><button type="button" id="button" class="copy">B.F-S</button></a>
+              </div>
+              <div class="col-md-6">
+                  <button type="button" id="button" class="copy">C. S-F</button>
+
+                  <button type="button" id="button" class="copy">D. A-A</button>
+              </div>
+          </div>
+        </section>
+        
+        <section id="keempat">
+        <div class="col-md-6">
+                  <img src="Images/coollogo_com-153191244.png">
+              </div>
+           <div class="row">
+              <div class="col-md-6">
+                  <button type="button" id="button" class="copy">A. E-P-S</button>
+
+                  <button type="button" id="button" class="copy">B. P-S-E</button>
+
+              </div>
+              <div class="col-md-6">
+                  <a href="#bonus"><button type="button" id="button" class="copy">C. E-S-P</button></a>
+
+                  <button type="button" id="button" class="copy">D. P-E-S</button>
+              </div>
+          </div>
+        </section>
+        
           <section id="bonus">
               <h1><img src="images/coollogo_com-247551007.gif"></h1>
               <canvas id="stage" height="300" width="420">
@@ -33,6 +127,89 @@
           
       </article>
       <script src="build/build.js"></script>
+      <script>
+// Get the modal
+var modal = document.getElementById('myModal');
 
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img  = document.getElementById('button');
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+      <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img  = document.getElementById('button1');
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+      <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img  = document.getElementById('button2');
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+      <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img  = document.getElementById('button3');
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
     </body>
 </html>
