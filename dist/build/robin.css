@@ -49,7 +49,9 @@
     opacity: 1;
     transition: 0s
 }
-
+#gamerobin p {
+    font-size: 20px;
+}
 
 
 

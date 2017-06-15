@@ -1,0 +1,57 @@
+#choiceb{
+    text-decoration: none;
+    color:black;
+    
+}
+#kelima .kotak{
+    width:850px;
+    height: 800px;
+    background: url(../images/th.jpg);
+    background-size: cover;
+}
+#kelima h1{
+    margin-top:200px;
+    color : purple;
+    font-size: 40px;
+    text-align: center;
+}
+#kelima .jawaban{
+    width:500px;
+    height: 30px;
+    margin-top: 100px;
+}
+#kelima .kotak p{
+    margin-top:30px;
+    font-size: 60px;
+    color: red;
+}
+#kelima button{
+    width:200px;
+    height:30px;
+    color:darkgreen;
+    margin-top: 20px;
+    font-family: sans-serif
+    
+}
+#keenam .temp{
+    background-color: red;
+    width:500px;
+    height: 500px;
+}
+#keenam img{
+    width: 100px;
+    height:100px;
+
+}
+#ketujuh img{
+   width:100px;
+   height:100px;
+    
+}
+#kesembilan {
+    width: 200px;
+    
+}
+img:hover{
+    cursor: pointer;
+}
