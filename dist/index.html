@@ -15,6 +15,9 @@
   <body>
       <article>
           <section id="alpha">
+             <audio id=welcome>
+                 <source src="music/18_welcome!.wav">
+              </audio>
               <h1><img src="images/coollogo_com-2357971.png"></h1>
           </section>
           
@@ -287,5 +290,8 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 </script>
+      <script>
+          document.getElementById('welcome').play();
+      </script>
     </body>
 </html>
