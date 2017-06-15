@@ -9,11 +9,12 @@ html
     link(rel='stylesheet', type='text/css', href='build/prikitiew.css')
     link(rel='stylesheet', type='text/css', href='build/andy.css')
     link(rel='stylesheet', type='text/css', href='build/robin.css')
+    link(rel='stylesheet', type='text/css', href='build/kevin.css')
   body
     article
       section#alpha
-      audio#welcome
-  source(src='music/18_welcome!.wav')
+        audio#welcome
+          source(src='music/18_welcome!.wav')
         h1
           img(src='images/coollogo_com-2357971.png')
       section#beta
@@ -78,9 +79,37 @@ html
             button#button.copy(type='button') A. E-P-S
             button#button.copy(type='button') B. P-S-E
           .col-md-6
-            a(href='#bonus')
+            a(href='#kelima')
               button#button.copy(type='button') C. E-S-P
             button#button.copy(type='button') D. P-E-S
+      section#kelima
+        .kotak
+          h1 Seberapa anak IT kah anda ??
+          p 1+1 = ????
+          input.jawaban(type='text', placeholder='Text input')
+          br
+          button(type='submit', placeholder='ketikkan jawaban disini')
+            a(href='#keenam') submit
+      section#keenam
+        .col-md-6
+          h1 Mari uji kecerdasan kamu
+          h4 Negara dengan penduduk terbanyak ke dua di dunia ??
+          img(src='Images/moscow.jpg')
+          img(src='Images/gbe.jpg')
+          img(src='Images/zimbabwe.jpg')
+          a(href='#ketujuh')
+            img(src='Images/india.jpg')
+      section#ketujuh
+        .col-md-6
+          h3
+            | Memastikan kamu adalah manusia    
+            h4
+              | Pilihlah gambar yang termasuk hewan mamalia
+              img(src='Images/komodo.jpg')
+              img(src='Images/bird.jpg')
+              img(src='Images/fish.jpg')
+              a(href='#quisrobin1')
+                img(src='Images/mamals.jpg')
       section#quisrobin1
         h1
           img(src='images/soal%20kunci%20gitar.png')
@@ -221,3 +250,5 @@ html
       span.onclick = function() {
       modal.style.display = "none";
       }
+    script.
+      document.getElementById('welcome').play();
