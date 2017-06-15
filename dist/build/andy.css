@@ -1,27 +1,30 @@
+#kedua,#ketiga,#keempat{
+    background: white no-repeat fixed;
+}
 #kedua img{
     margin-left: -40px;
 } 
 
 #kedua button{
-    width: 300px;
+    width: 200px;
     margin: 10px;
     height: 40px;
     
 }
 #ketiga button{
-    width: 300px;
+    width: 200px;
     margin: 10px;
     height: 40px;
 }
 #ketiga img {
     width: 500px;
     margin-top:-150px;
-    margin-left: -40px;
+    margin-left: -120px;
     padding: 80px;
     font-size-adjust: 500px;
 }
 #keempat button{
-   width: 300px;
+   width: 200px;
     margin: 10px;
     height: 40px;
 }

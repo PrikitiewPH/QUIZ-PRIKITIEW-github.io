@@ -1,14 +1,53 @@
-
+#alpha,#beta{
+    min-height: 720px;
+    min-width: 1280px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0 auto;
+}
 #alpha{
-    background: lightgray no-repeat fixed;     
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url("../images/image-1.jpeg") fixed no-repeat;
+    background-size: cover;
 }
-#beta{
-    background: lightgray no-repeat fixed;     
+#alpha img{
+    text-align: center;
+    margin-left: 100px;
+    width: 600px;
 }
 
+#beta{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url("../images/image-2.jpg") fixed no-repeat;
+    background-size: cover;
+}
+#beta img{
+    text-align: center;
+    margin-left: 290px;
+    width: 1000px;
+}
+#beta li{
+    text-align: center;
+    margin-left: 290px;
+    font-size: 40px;
+    font-family: cursive;
+    font-style: bold;
+}
 canvas {
     border:3px solid green;
     background: url(../images/grass.jpg);
+}
+#gamerobin{
+    background: white no-repeat fixed;
 }
 #bonus {
     background-color: white;
@@ -16,3 +55,4 @@ canvas {
 #bonus h1{
     margin-top : -20px;
 }
+
