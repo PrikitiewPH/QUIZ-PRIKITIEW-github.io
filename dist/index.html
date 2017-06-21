@@ -17,6 +17,9 @@
       <audio id="pew">
           <source src="music/Pew_Pew-DKnight556-1379997159.mp3" type="audio/wav">
       </audio>
+      <audio id="pew2">
+          <source src="music/Incoming_Suspense-Maximilien_-1060577487.wav" type="audio/wav">
+      </audio>
       <article>
           <section id="alpha">
              <audio id=welcome>
@@ -332,6 +335,7 @@ span.onclick = function() {
       </script>
       <script>
             var audio = document.getElementById("pew");
+          var audios = document.getElementById("pew2");
           window.addEventListener("keydown", function(e) {
               var x = e.keyCode;
               if (x === 37) {
@@ -339,6 +343,12 @@ span.onclick = function() {
               }
               if (x === 39) {
                   audio.play();
+              }
+              if (x === 38) {
+                  audios.play();
+              }
+              if (x === 40) {
+                  audios.play();
               }
           });
       </script>
