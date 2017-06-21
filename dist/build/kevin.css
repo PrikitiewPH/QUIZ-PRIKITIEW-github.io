@@ -27,7 +27,7 @@
 }
 #kelima button{
     width:200px;
-    height:30px;
+    height:50px;
     color:darkgreen;
     margin-top: 20px;
     font-family: sans-serif
@@ -35,18 +35,23 @@
 }
 #keenam .temp{
     background-color: red;
-    width:500px;
-    height: 500px;
+    width: 100px;
+    height: 100px;
 }
 #keenam img{
-    width: 100px;
-    height:100px;
+    width: 150px;
+    height:80px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: -10px;
 
 }
 #ketujuh img{
-   width:100px;
-   height:100px;
-    
+   width: 150px;
+    height:80px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: -10px;
 }
 #kesembilan {
     width: 200px;
