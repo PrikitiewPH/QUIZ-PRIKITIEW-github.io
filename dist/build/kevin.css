@@ -38,25 +38,48 @@
     text-decoration: none;
     font-size: 30px;
 }
-#keenam .temp{
-    background-color: red;
-    width: 100px;
-    height: 100px;
+#keenam {
+    background-size: cover;
+    background-image:url(../images/soldiers.jpg) ;
 }
 #keenam img{
-    width: 150px;
-    height:80px;
+    width: 200px;
+    height:100px;
     padding: 10px;
     margin: 10px;
     margin-left: -10px;
+    padding-right: 60px;
 
 }
+
+#keenam h4{
+    font-size: 20px;
+    color: chocolate;
+}
+#keenam h1,h4{
+    color: chocolate;
+}
+
+#ketujuh {
+    background-image: url(../images/ZooCuteVector.jpg);
+    background-size: cover;
+}
+#ketujuh h3,h4{
+    font-size: 32px;
+    color: black;
+    font-style: italic;
+}
+#ketujuh h4{
+    color: blue;
+    font-size: 20px;
+}
 #ketujuh img{
-   width: 150px;
-    height:80px;
+   width: 200px;
+    height:100px;
     padding: 10px;
     margin: 10px;
     margin-left: -10px;
+    padding-right: 60px;
 }
 #kesembilan {
     width: 200px;
